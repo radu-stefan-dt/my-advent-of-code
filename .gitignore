@@ -2,7 +2,6 @@
 **venv**
 
 # my aoc files
-**brief.md**
-**input.txt**
-**output.md**
-**short.txt**
+**/**/input*
+**/**/short*
+**/**/output*
