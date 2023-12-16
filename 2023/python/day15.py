@@ -1,11 +1,7 @@
 import re
+import sys
 from functools import cache, reduce
 from typing import List, Tuple
-
-
-def get_puzzle_input() -> str:
-    with open("day15/input.txt") as f:
-        return f.read()
 
 
 @cache
@@ -24,8 +20,7 @@ def score(i: int, box: List[Tuple[str, int]]) -> int:
     return sum([i * j * int(lens[1]) for j, lens in enumerate(box, 1)])
 
 
-def solve_puzzle():
-    data = get_puzzle_input()
+def solve_puzzle(data: str):
 
     result1 = sum([hash(step) for step in data.splitlines()[0].split(",")])
     print("Part one answer:", result1)
@@ -53,4 +48,6 @@ def solve_puzzle():
 
 
 if __name__ == "__main__":
-    solve_puzzle()
+    with open(sys.argv[1], "r") as f:
+        puzzle_input = f.read()
+    solve_puzzle(puzzle_input)

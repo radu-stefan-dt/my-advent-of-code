@@ -1,17 +1,7 @@
 # 2023
 
-[![day1](./art/day01-trebuchet.png)](https://adventofcode.com/2023/day/1)
-[![day2](./art/day02-cubes-conundrum.png)](https://adventofcode.com/2023/day/2)
-[![day3](./art/day03-gear-ratios.png)](https://adventofcode.com/2023/day/3)
-[![day4](./art/day04-scratchcards.png)](https://adventofcode.com/2023/day/4)
-[![day5](./art/day05-give-a-seed-a-fertilizer.png)](https://adventofcode.com/2023/day/5)
-[![day6](./art/day06-wait-for-it.png)](https://adventofcode.com/2023/day/6)
-[![day7](./art/day07-camel_cards.png)](https://adventofcode.com/2023/day/7)
-[![day8](./art/day08-haunted-wasteland.png)](https://adventofcode.com/2023/day/8)
-[![day9](./art/day09-mirage-maintenance.png)](https://adventofcode.com/2023/day/9)
-[![day10](./art/day10-pipe-maze.png)](https://adventofcode.com/2023/day/10)
-[![day11](./art/day11-cosmic-expansion.jpg)](https://adventofcode.com/2023/day/11)
-[![day12](./art/day12-hot-springs.jpg)](https://adventofcode.com/2023/day/12)
-[![day13](./art/day13-point-of-incidence.jpg)](https://adventofcode.com/2023/day/13)
-[![day14](./art/day14-parabolic-reflector-dish.jpg)](https://adventofcode.com/2023/day/14)
-[![day15](./art/day14-parabolic-reflector-dish.jpg)](https://adventofcode.com/2023/day/15)
+|       |       |       |       |       |       |       |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <a href="https://adventofcode.com/2023/day/1"><img alt="day1" src="./art/day01-trebuchet.png"></a> | <a href="https://adventofcode.com/2023/day/2"><img alt="day2" src="./art/day02-cubes-conundrum.png"></a> | <a href="https://adventofcode.com/2023/day/3"><img alt="day3" src="./art/day03-gear-ratios.png"></a> | <a href="https://adventofcode.com/2023/day/4"><img alt="day4" src="./art/day04-scratchcards.png"></a> | <a href="https://adventofcode.com/2023/day/5"><img alt="day5" src="./art/day05-give-a-seed-a-fertilizer.png"></a> | <a href="https://adventofcode.com/2023/day/6"><img alt="day6" src="./art/day06-wait-for-it.png"></a> | <a href="https://adventofcode.com/2023/day/7"><img alt="day7" src="./art/day07-camel_cards.png"></a> |
+| <a href="https://adventofcode.com/2023/day/8"><img alt="day8" src="./art/day08-haunted-wasteland.png"></a> | <a href="https://adventofcode.com/2023/day/9"><img alt="day9" src="./art/day09-mirage-maintenance.png"></a> | <a href="https://adventofcode.com/2023/day/10"><img alt="day10" src="./art/day10-pipe-maze.png"></a> | <a href="https://adventofcode.com/2023/day/11"><img alt="day11" src="./art/day11-cosmic-expansion.jpg"></a> | <a href="https://adventofcode.com/2023/day/12"><img alt="day12" src="./art/day12-hot-springs.jpg"></a> | <a href="https://adventofcode.com/2023/day/13"><img alt="day13" src="./art/day13-point-of-incidence.jpg"></a> | <a href="https://adventofcode.com/2023/day/14"><img alt="day14" src="./art/day14-parabolic-reflector-dish.jpg"></a> |
+| <a href="https://adventofcode.com/2023/day/15"><img alt="day15" src="./art/day15-lens-library.jpg"></a> |       |       |       |       |       |       |

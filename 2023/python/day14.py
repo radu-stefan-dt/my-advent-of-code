@@ -1,10 +1,6 @@
+import sys
 import numpy as np
 from functools import cache
-
-
-def get_puzzle_input() -> str:
-    with open("day14/input.txt", "r") as f:
-        return f.read()
 
 
 def to_array(data: str) -> np.ndarray:
@@ -51,8 +47,7 @@ def get_cycle_force(original_map: str) -> (str, int):
     return array_to_str(rock_arr), get_force(rock_arr)
     
 
-def solve_puzzle():
-    raw_data = get_puzzle_input()
+def solve_puzzle(raw_data: str):
     result1 = get_force(to_array(shift_rocks(raw_data)))
     
     print("Part 1 answer:", result1)
@@ -66,6 +61,8 @@ def solve_puzzle():
 
 
 if __name__ == "__main__":
-    solve_puzzle()
+    with open(sys.argv[1], "r") as f:
+        puzzle_input = f.read()
+    solve_puzzle(puzzle_input)
 
 
