@@ -5,7 +5,8 @@
 **dist-*
 
 # my aoc files
-**/**/input*
+**/**/input.txt
+**/**/input.md
 **/**/short*
 **/**/output*
 
