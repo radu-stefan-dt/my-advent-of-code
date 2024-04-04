@@ -1,0 +1,26 @@
+cabal-version:      3.0
+name:               advent-of-code
+version:            0.1.0.0
+synopsis:           Advent of Code 2023 in Haskell
+author:             Radu Stefan
+build-type:         Simple
+
+common setup
+    ghc-options:        -Wall
+    hs-source-dirs:     app
+    default-language:   Haskell2010
+    default-extensions: OverloadedStrings
+    build-depends:      base ^>=4.17.2.1, containers, text
+
+executable day1
+    import:         setup
+    main-is:        Day01.hs
+
+executable day2
+    import:         setup
+    main-is:        Day02.hs
+
+executable day3
+    import:         setup
+    main-is:        Day03.hs
+    build-depends:  base ^>=4.17.2.1, regex-tdfa ^>= 1.3.2

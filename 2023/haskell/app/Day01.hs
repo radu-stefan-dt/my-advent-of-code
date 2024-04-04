@@ -1,10 +1,9 @@
-module Day01 where
-
 import Data.Char (isDigit)
 import Data.List (inits, isInfixOf, tails)
 import Data.Map qualified as Map
 import System.Environment (getArgs)
 
+main :: IO ()
 main = do
   (inputFile : _) <- getArgs
   input <- readFile inputFile

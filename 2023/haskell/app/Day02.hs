@@ -1,11 +1,10 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Day02 where
-
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Data.Text (Text, pack, splitOn, unpack)
 import System.Environment ( getArgs )
 
+main :: IO ()
 main = do
     (inputFile : _) <- getArgs
     input <- readFile inputFile
